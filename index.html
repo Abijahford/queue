@@ -12,17 +12,17 @@
 <div class="container">
     <div class="section1">
         <p class="small">You can close the tab without losing your space in line.</p>
-        <img src="images/green-mush.png" alt="Green Mushroom Image" width="50px" height="auto">
+        <img src="images/green-mush.png" alt="Green Mushroom Image" width="auto" height="80px">
         <h1>YOU ARE NOW IN LINE</h1>
-        <p>You are in like for Power Up. When its your turn,  you will have 10 minutes to enter the website.</p>
+        <p>You are in line for a <span style="color: #049165;">Power Up</span>! <br> When its your turn,  you will have 10 minutes to enter the website.</p>
     </div>
     <div class="section2">
-        <input type="range" name="queue" id="queue">
+        <input type="range" name="queue" id="queue" style="width: 90%;">
         <div class="stats">
-            <p>Your number in line: 567</p>
-            <p>Number of users in line ahead of you: 235</p>
-            <p>Expected arrival time on the website: 1:34 PM</p>
-            <p>Your estimated wait time is: 10 minutes</p>
+            <p>Your number in line: <span class="bold">567</span></p>
+            <p>Number of users in line ahead of you: <span class="bold">235</span></p>
+            <p>Expected arrival time on the website: <span class="bold">1:34 PM</span></p>
+            <p>Your estimated wait time is: <span class="bold">10 minutes</span></p>
             <p class="small">Status last updated:  1:15:34 PM</p>
         </div>
     </div>
@@ -31,10 +31,10 @@
             <p>Message last updated: 1:15 PM</p>
             <p>This is a test message.</p>
         </div>
-        <p>Please notify me when its my turn:</p>
+        <p class="bold">Please notify me when its my turn:</p>
         <form action="">
-            <input type="email" name="" id="">
-            <input type="button" value="">
+            <input type="email" name="email" id="email" placeholder="Enter email address">
+            <input type="button" value="NOTIFY ME">
         </form>
     </>
 </div>
