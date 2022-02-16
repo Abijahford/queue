@@ -119,11 +119,89 @@ input[type='button'] {
   font-weight: bold;
 }
 
-@media (min-width: 600px) {
+.power-up {
+  color: #049165;
+  font-weight: bold;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
   body {
     height: 100vh;
     width: auto;
     background: url(images/desktop-bg.jpg);
     background-size: cover;
+  }
+
+  .container {
+    height: 80%;
+    width: 60%;
+    border: #555169 3px solid;
+  }
+
+  img {
+    content: url('images/purp-mush.png');
+  }
+
+  .power-up {
+    color: #6e73b0;
+    font-weight: bold;
+  }
+
+  .msgBoard {
+    border: #555169 2px solid;
+  }
+
+  .section2 {
+    border-top: #6e73b0 3px solid;
+    border-bottom: #6e73b0 3px solid;
+  }
+
+  input[type='email'] {
+    border: #6e73b0 2px solid;
+  }
+
+  input[type='button'] {
+    background-color: #6e73b0;
+  }
+}
+
+@media (min-width: 1201px) {
+  body {
+    height: 100vh;
+    width: auto;
+    background: url(images/desktop-bg-2.jpg);
+    background-size: cover;
+  }
+
+  .container {
+    height: 80%;
+    width: 40%;
+    border: #ae8f61 3px solid;
+  }
+
+  img {
+    content: url('images/red-mush.png');
+  }
+
+  .power-up {
+    color: #972d0f;
+    font-weight: bold;
+  }
+
+  .msgBoard {
+    border: #5e4721 2px solid;
+  }
+
+  .section2 {
+    border-top: #972d0f 3px solid;
+    border-bottom: #972d0f 3px solid;
+  }
+
+  input[type='email'] {
+    border: #972d0f 2px solid;
+  }
+
+  input[type='button'] {
+    background-color: #972d0f;
   }
 }
