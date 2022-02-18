@@ -155,8 +155,8 @@ img:hover {
   }
 
   .container {
-    height: 80%;
-    width: 60%;
+    height: calc(90vh - 100px);
+    width: calc(60vw - 20px);
     border: #555169 3px solid;
   }
 
@@ -198,7 +198,7 @@ img:hover {
   }
 
   .container {
-    height: 80%;
+    height: calc(45vw);
     width: 700px;
     background-color: black;
     border: #ae8f61 1px solid;
